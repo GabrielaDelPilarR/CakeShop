@@ -1,0 +1,44 @@
+.testimony-people{
+    display: flex;
+    flex-direction: row;
+
+}
+.testimony {
+    margin-block: 8rem;
+}
+
+.testimony h2 {
+    text-align: center;
+}
+
+.testimony-img {
+    display: flex;
+    gap: 24px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.testimony-man {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    padding: 48px;
+    border: 1px solid #F3D1BF;
+    box-shadow: 0px 32px 64px rgba(57, 20, 0, 0.04);
+    border-radius:  6px 6px 0px;
+}
+
+.testimony-woman {
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+    border: 1px solid #F3D1BF;
+    box-shadow: 0px 32px 64px rgba(57, 20, 0, 0.04);
+    border-radius: 0px 0px 6px 6px;
+}
+
+.testimony-woman p {
+    padding-block-start: 16px;
+    padding-block-end: 80px;
+}

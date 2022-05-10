@@ -1,0 +1,27 @@
+.slider {
+    display: flex;
+}
+
+.slider-container {
+    padding-block-start: 100px;
+    width: 714px;
+    height: 527px;
+    overflow: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+}
+
+.slider-content {
+    width: 515px;
+    height: 368px;
+    padding-block: 8.125rem;
+    padding-inline-start: 135px;
+}
+
+.slider-bullet {
+    display: inline-block;
+    inline-size: 15px;
+    block-size: 15px;
+    background: var(--primary);
+    border-radius: 50%;
+}

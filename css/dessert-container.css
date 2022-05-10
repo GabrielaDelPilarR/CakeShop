@@ -1,0 +1,25 @@
+.dessert-container {
+    display: flex;
+    flex-direction: column;
+    margin-block: 5rem;
+}
+
+.dessert-container h2 {
+    text-align: center;
+    color: var(--text_dark);
+}
+
+.dessert-special {
+    display: flex;
+    max-width: 1150px;
+    gap: 24px;
+    flex-shrink: 1;
+
+}
+
+.dessert-cake {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+

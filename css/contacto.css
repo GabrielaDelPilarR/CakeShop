@@ -1,0 +1,56 @@
+.contact {
+    display: flex;
+    flex-direction: row;
+    margin-block-start: 8.43rem;
+    gap: 8.125rem;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contact-info h3{
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-icon {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    background-color:#FDEBEB;
+    gap: 1.5rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+input {
+    border-radius: 0.375rem;
+    border: none;
+    padding-block:1rem;
+    padding-inline-start: 1rem;
+}
+
+input::placeholder {
+    font: var(--text);
+    color: var(--grey-2);
+}
+
+.descripcion {
+    max-height: 7.5rem;
+    padding-block-end: 2rem;
+}

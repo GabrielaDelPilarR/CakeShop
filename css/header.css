@@ -1,0 +1,7 @@
+h3 {
+    display: inline;
+    padding-inline-start: 135px;
+    padding-block: 24px;
+    color: var(--text_dark);
+    font: Impact;
+}

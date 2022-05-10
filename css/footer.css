@@ -1,0 +1,11 @@
+footer {
+    margin-block-start: 8.43rem;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 51rem;
+    align-items: center;
+}
+
